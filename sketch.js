@@ -127,8 +127,6 @@ function keyPressed(){
 //write code for extra chance of the player
 if(keyCode === 32) {
 
-Matter.Body.setPosition(polygon.body,{x: 235,y:420})
-SlingShot.attach()
+slingShot.attach(this.polygon); } 
 }
 
-}
